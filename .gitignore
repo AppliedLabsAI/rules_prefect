@@ -1,0 +1,14 @@
+# A file specifying filepatterns for git to ignore.
+
+# Bazel
+**/bazel-*
+.bazelrc.user
+*.venv/
+.aspect/bazelrc/user.bazelrc
+
+# vscode
+.vscode
+*.code-workspace
+
+# omc
+.omc

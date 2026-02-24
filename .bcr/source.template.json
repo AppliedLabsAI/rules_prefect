@@ -1,0 +1,5 @@
+{
+  "url": "https://github.com/appliedlabs/rules_prefect/releases/download/v{VERSION}/rules_prefect-v{VERSION}.tar.gz",
+  "strip_prefix": "rules_prefect-{VERSION}",
+  "integrity": ""
+}

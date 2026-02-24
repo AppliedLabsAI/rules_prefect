@@ -1,0 +1,16 @@
+load("@aspect_rules_py//py:defs.bzl", "py_library")
+load("@rules_prefect//prefect:defs.bzl", "prefect_deploy")
+
+py_library(
+    name = "flow",
+    srcs = ["flow.py"],
+    deps = ["@pip//prefect"],
+)
+
+prefect_deploy(
+    name = "deploy",
+    flow_file = "flow.py",
+    entrypoint = "flow.py:my_flow",
+    image_repository = "us-central1-docker.pkg.dev/my-project/prefect",
+    work_pool_name = "my-cloud-run-pool",
+)
