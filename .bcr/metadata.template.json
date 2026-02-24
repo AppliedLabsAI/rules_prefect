@@ -1,13 +1,13 @@
 {
-  "homepage": "https://github.com/appliedlabs/rules_prefect",
+  "homepage": "https://github.com/AppliedLabsAI/rules_prefect",
   "maintainers": [
     {
       "name": "Applied Labs",
-      "github": "appliedlabs"
+      "github": "AppliedLabsAI"
     }
   ],
   "repository": [
-    "github:appliedlabs/rules_prefect"
+    "github:AppliedLabsAI/rules_prefect"
   ],
   "versions": [],
   "yanked_versions": {}
